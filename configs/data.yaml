@@ -1,0 +1,33 @@
+# Paths to Volve data (update after download)
+raw:
+  base_dir: "data/raw"
+  wells:
+    - name: "F-4"
+    - name: "F-7"
+    - name: "F-9"
+    - name: "F-14"
+processed:
+  base_dir: "data/processed"
+schema:
+  time_columns:
+    - timestamp
+    - hookload
+    - rpm
+    - torque
+    - flow
+    - spm
+    - standpipe_pressure
+    - wob
+    - bit_depth
+    - hole_depth
+    - rop
+  depth_columns:
+    - md
+    - tvd
+    - rop
+    - wob
+    - rpm
+    - torque
+    - spp
+    - flow
+

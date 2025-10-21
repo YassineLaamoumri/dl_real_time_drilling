@@ -1,0 +1,7 @@
+task: "regression"  # or "classification"
+input_dim: 32
+hidden_dims: [64]
+output_dim: 1
+onnx:
+  opset: 17
+

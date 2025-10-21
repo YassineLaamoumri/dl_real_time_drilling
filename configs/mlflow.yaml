@@ -1,0 +1,6 @@
+tracking_uri: "http://localhost:5000"
+experiment_name: "drilling-rt"
+model_name: "drilling-rt"
+# Optional if using registry backend (Postgres)
+registry_uri: "postgresql+psycopg2://mlflow:password@localhost:5432/mlflow"
+
