@@ -11,10 +11,10 @@ htmlcov/
 .env
 .env.*
 
-data/raw/
-data/processed/
+data/
 artifacts/
 mlruns/
+
 
 .DS_Store
 .idea/
